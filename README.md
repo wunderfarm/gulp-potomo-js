@@ -1,4 +1,4 @@
-# gulp-potomo-js
+# gulp-potomo-js [![Build Status](https://travis-ci.org/wunderfarm/gulp-potomo-js.svg?branch=master)](https://travis-ci.org/wunderfarm/gulp-potomo-js)
 
 A Gulp plugin to compile .po files into binary .mo files written in JavaScript only.
 
