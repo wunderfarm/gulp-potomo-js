@@ -1,0 +1,11 @@
+{
+  "plugins": ["node"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "rules": {
+    "node/no-unpublished-require": 0
+  }
+}
