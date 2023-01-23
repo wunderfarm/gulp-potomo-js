@@ -13,6 +13,8 @@ module.exports = (opts) => {
 
 	if (process.argv.indexOf("--verbose") !== -1) {
 		opts.verbose = 2;
+	} else if (typeof opts.verbose === "boolean") {
+		opts.verbose = opts.verbose ? 2 : 1;
 	} else {
 		opts.verbose = typeof opts.verbose !== "undefined" ? Number(opts.verbose) : 1;
 	}
