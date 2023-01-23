@@ -8,7 +8,7 @@ const gettextParser = require("gettext-parser");
 
 const PLUGIN_NAME = "gulp-compile-translation-files";
 
-module.exports = (opts) => {
+module.exports = (opts = {}) => {
 	const validExts = [".po"];
 
 	if (process.argv.indexOf("--verbose") !== -1) {
